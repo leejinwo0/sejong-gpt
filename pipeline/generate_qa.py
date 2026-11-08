@@ -80,12 +80,12 @@ def build_prompt(template: str, rules: str, chunk: dict, asker: str, counts: dic
     return prompt
 
 
-def generate(client: genai.Client, model: str, prompt: str) -> list[QA]:
+def generate(client: genai.Client, model: str, prompt: str, schema=list[QA]) -> list:
     """429(한도 초과)나 서버 오류면 기다렸다가 재시도."""
     config = types.GenerateContentConfig(
         temperature=TEMPERATURE,
         response_mime_type="application/json",
-        response_schema=list[QA],
+        response_schema=schema,
     )
     wait = 20.0
     for attempt in range(1, MAX_RETRIES + 1):
