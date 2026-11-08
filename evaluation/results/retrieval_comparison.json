@@ -1,0 +1,29 @@
+[
+  {
+    "model": "minilm",
+    "recall@1": 0.102,
+    "recall@2": 0.155,
+    "recall@3": 0.19,
+    "recall@5": 0.24,
+    "mrr": 0.179,
+    "ms/질문": 8.1
+  },
+  {
+    "model": "mpnet",
+    "recall@1": 0.098,
+    "recall@2": 0.138,
+    "recall@3": 0.172,
+    "recall@5": 0.212,
+    "mrr": 0.166,
+    "ms/질문": 27.9
+  },
+  {
+    "model": "e5-large",
+    "recall@1": 0.5,
+    "recall@2": 0.647,
+    "recall@3": 0.738,
+    "recall@5": 0.855,
+    "mrr": 0.644,
+    "ms/질문": 81.2
+  }
+]

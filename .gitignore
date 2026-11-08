@@ -7,11 +7,10 @@ __pycache__/
 # 비밀 정보
 .env
 
-# 모델 (Hugging Face Hub에 업로드)
+# 모델 (GGUF는 GitHub Releases, 임베딩 모델은 앱이 자동으로 내려받음)
 models/
 
-# 다시 만들 수 있는 산출물
-index/
+# 백과사전 원본 HTML (본문은 data/raw/encykorea/articles.jsonl에 정리)
 data/raw/encykorea/html/
 
 # AI Hub 데이터 (재배포 금지)

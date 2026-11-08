@@ -5,3 +5,5 @@ python-dotenv
 beautifulsoup4
 google-genai
 llama-cpp-python
+fastembed
+streamlit
