@@ -1,5 +1,7 @@
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 pandas
 requests
 python-dotenv
 beautifulsoup4
 google-genai
+llama-cpp-python
