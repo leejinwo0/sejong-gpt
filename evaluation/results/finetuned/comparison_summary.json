@@ -1,0 +1,285 @@
+{
+  "exaone-4.0-1.2b": {
+    "overall": {
+      "abstain_correct": 0.849,
+      "hao_ratio": 0.12,
+      "length": 184.747,
+      "no_hanja": 0.843,
+      "no_modern_polite": 0.229,
+      "no_wrong_first_person": 0.916,
+      "rouge_l": 0.23,
+      "uses_gwain": 0.12,
+      "years_correct": 0.875,
+      "n": 83
+    },
+    "casual": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.103,
+      "length": 161.765,
+      "no_hanja": 0.824,
+      "no_modern_polite": 0.294,
+      "no_wrong_first_person": 0.941,
+      "rouge_l": 0.26,
+      "uses_gwain": 0.176,
+      "years_correct": 1.0,
+      "n": 17
+    },
+    "fact": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.097,
+      "length": 164.441,
+      "no_hanja": 0.824,
+      "no_modern_polite": 0.176,
+      "no_wrong_first_person": 0.941,
+      "rouge_l": 0.282,
+      "uses_gwain": 0.088,
+      "years_correct": 0.8,
+      "n": 34
+    },
+    "persona": {
+      "hao_ratio": 0.215,
+      "length": 243.0,
+      "no_hanja": 0.9,
+      "no_modern_polite": 0.3,
+      "no_wrong_first_person": 0.6,
+      "rouge_l": 0.145,
+      "uses_gwain": 0.2,
+      "n": 10
+    },
+    "reason": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.25,
+      "length": 241.0,
+      "no_hanja": 1.0,
+      "no_modern_polite": 0.273,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.194,
+      "uses_gwain": 0.091,
+      "n": 11
+    },
+    "unanswerable": {
+      "abstain_correct": 0.0,
+      "hao_ratio": 0.0,
+      "length": 173.818,
+      "no_hanja": 0.727,
+      "no_modern_polite": 0.182,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.138,
+      "uses_gwain": 0.091,
+      "n": 11
+    }
+  },
+  "kanana-1.5-2.1b": {
+    "overall": {
+      "abstain_correct": 0.849,
+      "hao_ratio": 0.009,
+      "length": 349.53,
+      "no_hanja": 0.41,
+      "no_modern_polite": 0.036,
+      "no_wrong_first_person": 0.988,
+      "rouge_l": 0.2,
+      "uses_gwain": 0.349,
+      "years_correct": 0.933,
+      "n": 83
+    },
+    "casual": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.0,
+      "length": 320.412,
+      "no_hanja": 0.412,
+      "no_modern_polite": 0.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.197,
+      "uses_gwain": 0.412,
+      "years_correct": 1.0,
+      "n": 17
+    },
+    "fact": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.013,
+      "length": 290.235,
+      "no_hanja": 0.265,
+      "no_modern_polite": 0.059,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.245,
+      "uses_gwain": 0.235,
+      "years_correct": 0.889,
+      "n": 34
+    },
+    "persona": {
+      "hao_ratio": 0.02,
+      "length": 328.8,
+      "no_hanja": 0.9,
+      "no_modern_polite": 0.1,
+      "no_wrong_first_person": 0.9,
+      "rouge_l": 0.157,
+      "uses_gwain": 0.9,
+      "n": 10
+    },
+    "reason": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.011,
+      "length": 491.818,
+      "no_hanja": 0.636,
+      "no_modern_polite": 0.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.162,
+      "uses_gwain": 0.364,
+      "years_correct": 1.0,
+      "n": 11
+    },
+    "unanswerable": {
+      "abstain_correct": 0.0,
+      "hao_ratio": 0.0,
+      "length": 454.364,
+      "no_hanja": 0.182,
+      "no_modern_polite": 0.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.141,
+      "uses_gwain": 0.091,
+      "n": 11
+    }
+  },
+  "qwen2.5-1.5b": {
+    "overall": {
+      "abstain_correct": 0.863,
+      "hao_ratio": 0.0,
+      "length": 267.253,
+      "no_hanja": 0.711,
+      "no_modern_polite": 0.06,
+      "no_wrong_first_person": 0.771,
+      "rouge_l": 0.211,
+      "uses_gwain": 0.0,
+      "years_correct": 0.857,
+      "n": 83
+    },
+    "casual": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.0,
+      "length": 254.0,
+      "no_hanja": 0.882,
+      "no_modern_polite": 0.0,
+      "no_wrong_first_person": 0.765,
+      "rouge_l": 0.204,
+      "uses_gwain": 0.0,
+      "years_correct": 0.75,
+      "n": 17
+    },
+    "fact": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.0,
+      "length": 232.294,
+      "no_hanja": 0.647,
+      "no_modern_polite": 0.118,
+      "no_wrong_first_person": 0.971,
+      "rouge_l": 0.276,
+      "uses_gwain": 0.0,
+      "years_correct": 0.875,
+      "n": 34
+    },
+    "persona": {
+      "hao_ratio": 0.0,
+      "length": 241.7,
+      "no_hanja": 1.0,
+      "no_modern_polite": 0.1,
+      "no_wrong_first_person": 0.2,
+      "rouge_l": 0.135,
+      "uses_gwain": 0.0,
+      "n": 10
+    },
+    "reason": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.0,
+      "length": 468.364,
+      "no_hanja": 0.636,
+      "no_modern_polite": 0.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.153,
+      "uses_gwain": 0.0,
+      "years_correct": 1.0,
+      "n": 11
+    },
+    "unanswerable": {
+      "abstain_correct": 0.091,
+      "hao_ratio": 0.0,
+      "length": 217.909,
+      "no_hanja": 0.455,
+      "no_modern_polite": 0.0,
+      "no_wrong_first_person": 0.455,
+      "rouge_l": 0.149,
+      "uses_gwain": 0.0,
+      "n": 11
+    }
+  },
+  "★ kanana-lora-r16": {
+    "overall": {
+      "abstain_correct": 0.904,
+      "hao_ratio": 0.994,
+      "length": 97.506,
+      "no_hanja": 0.988,
+      "no_modern_polite": 0.988,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.393,
+      "uses_gwain": 0.434,
+      "years_correct": 1.0,
+      "n": 83
+    },
+    "casual": {
+      "abstain_correct": 0.882,
+      "hao_ratio": 1.0,
+      "length": 98.059,
+      "no_hanja": 1.0,
+      "no_modern_polite": 1.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.392,
+      "uses_gwain": 0.529,
+      "years_correct": 1.0,
+      "n": 17
+    },
+    "fact": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 0.985,
+      "length": 94.971,
+      "no_hanja": 0.971,
+      "no_modern_polite": 0.971,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.455,
+      "uses_gwain": 0.265,
+      "years_correct": 1.0,
+      "n": 34
+    },
+    "persona": {
+      "hao_ratio": 1.0,
+      "length": 87.8,
+      "no_hanja": 1.0,
+      "no_modern_polite": 1.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.233,
+      "uses_gwain": 0.8,
+      "n": 10
+    },
+    "reason": {
+      "abstain_correct": 1.0,
+      "hao_ratio": 1.0,
+      "length": 123.091,
+      "no_hanja": 1.0,
+      "no_modern_polite": 1.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.347,
+      "uses_gwain": 0.273,
+      "years_correct": 1.0,
+      "n": 11
+    },
+    "unanswerable": {
+      "abstain_correct": 0.545,
+      "hao_ratio": 1.0,
+      "length": 87.727,
+      "no_hanja": 1.0,
+      "no_modern_polite": 1.0,
+      "no_wrong_first_person": 1.0,
+      "rouge_l": 0.392,
+      "uses_gwain": 0.636,
+      "n": 11
+    }
+  }
+}
